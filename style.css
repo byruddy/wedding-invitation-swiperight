@@ -1,0 +1,109 @@
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+body{
+	background-color: white;
+	/* color: gold; */
+    font-family: 'system-ui';
+}
+.hr {
+    font-family: 'Dancing Script', cursive;
+}
+.hr2 {
+    font-family: 'Great Vibes', cursive;
+}
+h1{
+	/* font-weight: 800; */
+	font-size: 3em;
+}
+
+.subtitle{
+	font-size: 1.25em;
+    opacity: 0.65;
+    font-family: serif;
+}
+
+.col {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.card-block{
+    height: 750px;
+    width: 400px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	&:hover{
+		transform: translateY(-45px);
+		box-shadow: none;
+	}
+}
+
+.card-1{
+    /* border: 1px dotted red; */
+    background-image: url(background.jpeg);
+    background-size: 450px;
+    background-position-y: 0;
+    background-position-x: -15px;
+    background-repeat: no-repeat;
+	/* background-color: #4158D0; */
+    /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
+    padding-top: 450px;
+    padding-left: 15px;
+    /* border-right: 1px solid #F2F2F2;; */
+    text-align: center;
+}
+
+.card-2 {
+    /* border: 1px dotted red; */
+    margin-left: 250px;
+    /* margin-right: 1550px; */
+	/* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+}
+.card-2 .box {
+    /* border: 2px dotted #A3A1AE; */
+    margin: 20px 0px;
+    height: 650px;
+    padding: 10px;
+    background-image: url(background-s1.jpeg);
+    background-size: 160px;
+    background-position-y: 595px;
+    background-position-x: 20px;
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+}
+.card-2 .background-add {
+    height: 400px;
+    width: 300px;
+    background-image: url(background-s2.jpg);
+    background-size: 50px;
+    /* background-position-y: 20px; */
+    /* background-position-x: 20px; */
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+}
+.card-3 {
+    /* border: 1px dotted red; */
+    margin-left: 500px;
+    /* margin-right: 1550px; */
+	/* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+}
+
+.card-3 .box {
+    /* border: 2px dotted #A3A1AE; */
+    margin: 20px 0px;
+    height: 650px;
+    padding: 10px;
+    background-size: 160px;
+    background-position-y: 5905px;
+    background-position-x: 20px;
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+}
